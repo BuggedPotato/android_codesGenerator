@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Readers">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/navReaderBar"
+                    android:icon="@drawable/barcode_scanner_100"
+                    android:title="@string/bar_codes" />
+                <item
+                    android:id="@+id/navReaderQR"
+                    android:icon="@drawable/qr_code_scanner_96"
+                    android:title="@string/qr_codes" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Generators">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/navGeneratorBar"
+                    android:icon="@drawable/barcode_generator_96"
+                    android:title="@string/bar_codes" />
+                <item
+                    android:id="@+id/navGeneratorQR"
+                    android:icon="@drawable/qr_code_generator_64"
+                    android:title="@string/qr_codes" />
+            </group>
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+        <item android:title="Settings" />
+    </group>
+
+
+</menu>
