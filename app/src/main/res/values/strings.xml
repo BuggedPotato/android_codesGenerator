@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">codesGenerator</string>
+    <string name="app_name">Codes generator</string>
+    <string name="app_desc">Generate and read bar and QR codes!</string>
+
     <string name="nav_open">Open</string>
     <string name="nav_close">Close</string>
     <string name="bar_codes">Bar codes</string>

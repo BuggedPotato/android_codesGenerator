@@ -3,9 +3,9 @@
     android:layout_width="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/dlRoot"
     >
-
 
     <TextView
         android:layout_width="wrap_content"
@@ -14,13 +14,15 @@
         android:gravity="center"
         />
 
+    
+
     <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         app:menu="@menu/navigation_menu"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
+        app:headerLayout="@layout/navigation_drawer_header"
          />
-
 
 </androidx.drawerlayout.widget.DrawerLayout>
