@@ -7,16 +7,23 @@
     android:id="@+id/dlRoot"
     >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:gravity="center"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <include android:id="@+id/toolBar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/flFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         />
 
-    
 
     <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nvNavigation"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         app:menu="@menu/navigation_menu"
